@@ -1,0 +1,5 @@
+def reversed_string(a_string):
+    return a_string
+    
+b="My lovely Kitty"
+print("Your reversed string is - ", reversed_string(b))
