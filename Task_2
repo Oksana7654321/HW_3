@@ -1,8 +1,0 @@
-def reverse (text):
-    for line in text.split('\n'):
-        return(' '.join(line.split()[::-1]))
-        
-        
-print(reverse ('The Tests Given in the Instructions'))
-print(reverse ('Hello World'))
-print(reverse ('Hi There.'))
